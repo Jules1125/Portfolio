@@ -11,6 +11,8 @@
 
   <link rel="stylesheet" href="style.css">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
   <style>
  
   </style>
@@ -159,7 +161,7 @@
     <section id="products" class="section-card container py-5">
       <h2 class="text-center mb-5">Featured Works</h2>
 
-   <div class="row g-4">
+  <div class="row g-4">
         <div class="col-md-4">
           <div class="product-card shadow-sm border-0">
             <img src="bookcover.jpg" class="card-img-top product" alt="Decapitated Labubu">
@@ -167,7 +169,7 @@
                 <br>
               <h5 class="product-title">Book Cover</h5>
               <p class="product-text">A sample of one of my works in the past. </p>
-              <a class="btn btn-neon" href="#"> View </a>
+              <a data-fancybox="gallery" href="bookcover.jpg" class="btn btn-neon">View</a>
             </div>
           </div>
         </div>
@@ -179,10 +181,11 @@
                 <br>
               <h5 class="product-title">Modeling</h5>
               <p class="product-text">A sample of one of my works in 3D Modeling.</p>
-              <a class="btn btn-neon" href="#"> View </a>
+              <a data-fancybox="gallery" href="modeling.png" class="btn btn-neon">View</a>
             </div>
           </div>
         </div>
+        
 <div class="col-md-4">
           <div class="product-card shadow-sm border-0">
             <img src="scenery.jpg" class="card-img-top product-img" alt="Decapitated Labubu">
@@ -190,7 +193,7 @@
                 <br>
               <h5 class="product-title">Modeling</h5>
               <p class="product-text">A sample of one of my works in 3D Modeling.</p>
-              <a class="btn btn-neon" href="#"> View </a>
+              <a data-fancybox="gallery" href="scenery.jpg" class="btn btn-neon">View</a>
             </div>
           </div>
         </div>
@@ -202,7 +205,7 @@
       <br>
       <h5 class="product-title">Random Art</h5>
       <p class="product-text">A sample of one of my doodle in the past.</p>
-      <a class="btn btn-neon" href="#"> View </a>
+      <a data-fancybox="gallery" href="whimsy.jpg" class="btn btn-neon">View</a>
     </div>
   </div>
 </div>
@@ -214,7 +217,7 @@
       <br>
       <h5 class="product-title">Comic Panel</h5>
       <p class="product-text">A sample of one of my past comics.</p>
-      <a class="btn btn-neon" href="#"> View </a>
+      <a data-fancybox="gallery" href="comic.jpg" class="btn btn-neon">View</a>
     </div>
   </div>
 </div>
@@ -228,7 +231,7 @@
     <div class="card-body text-center">
       <h5 class="product-title">Digital Animation</h5>
       <p class="product-text">A sample of one of my works in digital animation.</p>
-      <a class="btn btn-neon" href="#"> View </a>
+      <a data-fancybox="gallery" href="MIDTERMS_CALMA_IRVINJULES.mp4" class="btn btn-neon">View</a>
     </div>
   </div>
 </div>
@@ -242,7 +245,7 @@
     <div class="card-body text-center">
       <h5 class="product-title">Traditional Animation</h5>
       <p class="product-text">A sample of one of my works in traditional animation.</p>
-      <a class="btn btn-neon" href="#"> View </a>
+      <a data-fancybox="gallery" href="tradanim.mp4" class="btn btn-neon">View</a>
     </div>
   </div>
 </div>
@@ -254,7 +257,7 @@
       <br>
       <h5 class="product-title">Advertisement</h5>
       <p class="product-text">A sample of one of my past works in Photoshop.</p>
-      <a class="btn btn-neon" href="#"> View </a>
+      <a data-fancybox="gallery" href="wedding.jpg" class="btn btn-neon">View</a>
     </div>
   </div>
 </div>
@@ -266,10 +269,11 @@
             <div class="card-body text-center">
               <h5 class="product-title">Digital Illustration</h5>
               <p class="product-text">A sample of one of my digital illustrations.</p>
-              <a class="btn btn-neon" href="#"> View </a>
+              <a data-fancybox="gallery" href="yaoi.jpg" class="btn btn-neon">View</a>
             </div>
           </div>
         </div>
+
 
 
     <hr class="section-divider">
@@ -311,8 +315,11 @@
       }
     })();
   </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
   
 
 </body>
 </html>
+
 
